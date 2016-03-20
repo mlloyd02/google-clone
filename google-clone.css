@@ -1,0 +1,136 @@
+nav {
+    height: 40px;
+    width: 100%;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px
+}
+
+nav li a {
+    color: #585858;
+}
+
+.signIn {
+    float: right;
+    height: 30px;
+    width: 67px;
+    color: white;
+    font-weight: bold;
+    background-color: #4285F4;
+    border-radius: 2px;
+    margin-left: 20px;
+    margin-right: 16px;
+}
+
+.signIn:hover {
+    box-shadow: 0px 1px 1px #B3B3B3;
+}
+
+.signIn p {
+    margin: auto
+}
+
+.signIn, .navLinks {
+    display: inline-block;
+    float: right;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+}
+
+article {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 145px;
+    text-align: center;
+}
+
+#searchBox {
+    height: 38px;
+    width: 500px;
+    border: 1px solid #D4D2D2;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+#microphone {
+    float: right;
+    padding: 9px;
+}
+
+#searchButton {
+    width: 120px;
+    margin: auto;
+    margin-right: 2px; 
+}
+
+#luckyButton {
+    width: 135px;
+    margin-left: 2px;
+    border: 1px #F1F1F1;
+}
+
+#searchButton, #luckyButton {
+    height: 35px;
+    display: inline-flex;
+    background-color: #F1F1F1;
+    font-weight: bold;
+    color: #777676;
+    justify-content: center;
+    line-height: 80%;
+    margin-bottom: 12px;
+    border-radius: 2px;
+    border: 1px solid #F1F1F1;
+}
+
+#searchButton:hover, #luckyButton:hover, #searchBox:hover {
+    border: 1px solid #B5B5B5;
+    color: black;
+}
+
+a, p {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#moonShot {
+    color: #31389C;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    background-color: #F3F3F3;
+    border-top: 1px solid #E0E0E0;
+}
+
+footer ul li {
+    display: inline;
+    line-height: 40px;
+    margin-right: 27px;
+}
+
+footer ul li a {
+    color: #6D6D6D;
+}
+
+.floatRight {
+    right: 25px;
+}
+
+.floatLeft, .floatRight {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+}
